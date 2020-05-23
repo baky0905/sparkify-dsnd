@@ -7,6 +7,7 @@
   - [Introduction](#introduction)
   - [Installation](#installation)
   - [Results](#results)
+  - [Conclusion](#conclusion)
   - [Licence and Acknowledgements](#licence-and-acknowledgements)
 
 
@@ -258,6 +259,16 @@ Dataset was split into train and test, in a ratio of 70:30 which ended up with 7
 **Feature Importance**
 
 ![](./figs/feature_importance.png)
+
+
+
+## Conclusion
+
+Reflection
+
+
+
+Improvement
 
 
 
