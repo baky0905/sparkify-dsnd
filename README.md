@@ -28,14 +28,20 @@ Predicting churn rates is a challenging and common problem that data  scientists
 
 * Windows 10 OS
 * Visual Studio Code as an text editor and development environment.
+  
   * python extension from VS code's marketplace
 * [How to install PySpark to run in Jupyter Notebook on Windows ?](https://medium.com/@naomi.fridman/install-pyspark-to-run-on-jupyter-notebook-on-windows-4ec2009de21f)
 * Mini-Conda from which I used conda as package and environment manager.
   * in Anaconda Prompt run following to create correct python environment with all necessary packages:
     * `conda create --name sparkify python=python=3.7 numpy pandas jupyter matplotlib seaborn findspark pyspark handyspark`
+    
     * after setting up the environment run `activate sparkify
+    
     * clone the github repository to your local machine, open the cloned repo with Visual Studio Code's open folder, and choose correct environment sparkify.
+    
     * Jupyter notebook with analysis is located [here](./Sparkify.ipynb)
+    
+      
 
 ## Results ([analysis available in Jupyter Notebook](https://github.com/baky0905/sparkify-dsnd/blob/master/Sparkify.ipynb))
 
@@ -222,6 +228,10 @@ Dataset was split into train and test, in a ratio of 70:30 which ended up with 7
 * Results:
 
   ![](./figs/metrics.png)
+
+It is important to highlight that these results were obtained using the mini Sparkify dataset which contains only 115 unique users and their aggregated log actions. Model was trained on 71 and tested on only 44 user aggregated data, this is a very small dataset and performance evaluation results are uncertain. We would need to evaluate training and testing on the full dataset in order to be able to put more weight on the evaluation metrics.
+
+
 
 **Transformation pipeline:**
 
