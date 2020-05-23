@@ -36,7 +36,7 @@ Predicting churn rates is a challenging and common problem that data  scientists
     * clone the github repository to your local machine, open the cloned repo with Visual Studio Code's open folder, and choose correct environment sparkify.
     * Jupyter notebook with analysis is located [here](./Sparkify.ipynb)
 
-## Results
+## Results ([analysis available in Jupyter Notebook](https://github.com/baky0905/sparkify-dsnd/blob/master/Sparkify.ipynb))
 
 ### Project steps
 
